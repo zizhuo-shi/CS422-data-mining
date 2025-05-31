@@ -1,0 +1,15 @@
+Model,MAE,R²,Instance
+XGBoost,3.205032221878631,0.19962552554981816,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=1.0, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=0.05, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=7,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=100,
+             n_jobs=None, num_parallel_tree=None, ...)"
+Random Forest,3.1803797468354436,0.23174203810208494,RandomForestRegressor(random_state=42)
+Lasso Regression,3.4153359964938566,0.08454623686891571,Lasso(random_state=42)
+MLP,3.672121943543118,-0.02759378303929383,"MLPRegressor(max_iter=1000, random_state=42)"
